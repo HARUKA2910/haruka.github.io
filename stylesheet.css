@@ -64,6 +64,7 @@ li {
 }
 .contents-item1 {
     width: 30%;
+    height: 628*10px;
     float: left;
     margin-left:3%;
     margin-right:2%;
@@ -72,11 +73,15 @@ li {
 }
 .contents-item2 {
     width: 44%;
-    height: 628px;
+    padding-top: 377px;
+    height: 628*10px;
     float: right;
     margin-right:3%;
     margin-left:2%;
-    padding:3% 3%;
+    background-color: #1ec734;
+    overflow-y: scroll;
+
+    
     background-color: #1ec734;
     overflow-y: scroll;
 }
